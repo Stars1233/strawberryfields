@@ -14,9 +14,6 @@ In particular, Strawberry Fields allows for the following workflows:
   Provided simulators include highly optimized Gaussian, Fock, and Bosonic
   numeric backends, as well as a TensorFlow backend for backpropagation.
 
-* Compile and submit photonic circuits for remote execution on Xanadu's quantum hardware,
-  retrieve your results, and manage multiple jobs.
-
 * Use our high-level functions for graph and network optimization, machine learning, and
   chemistry applications --- all executable on near-term hardware.
 
@@ -24,8 +21,7 @@ Get started
 -----------
 
 Follow the `installation <../_static/install.html>`_ page to get Strawberry Fields up and
-running, then have a look at our quickstart guides, or jump over to the
-:doc:`tutorials <demonstrations>` to see what you can do with Strawberry Fields.
+running, then have a look at our quickstart guides.
 
 Users interested in applications of photonic quantum computers should check
 out the :doc:`applications` pages. Those wanting to dig deeper into the design
@@ -62,12 +58,7 @@ In the following sections you can learn more about the key features of Strawberr
 
 ..
 
-5. :doc:`photonic_hardware` gives an overview of building, submitting, and managing
-   remote jobs on both hardware and cloud simulators through Strawberry Fields.
-
-..
-
-6. :doc:`data` details the built-in datasets of pre-generated photonic samples provided
+5. :doc:`data` details the built-in datasets of pre-generated photonic samples provided
    by Strawberry Fields, for various graphs used in optimization, machine learning, and chemistry
    applications.
 
